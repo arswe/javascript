@@ -98,3 +98,14 @@
 // } else {
 //   console.log('false');
 // }
+
+// The Nullish Coalescing Operator (??) exercise;
+
+// 1. Declare a variable named greeting. If greeting has no value, its value should be "Hello world!".
+// let greeting;
+// greeting = greeting ?? 'Hello world!';
+// console.log(greeting);
+
+// The Optional Chaining Operator (?.) exercise;
+const car = { type: 'Fiat', model: '500', color: 'white' };
+console.log(car?.type);
