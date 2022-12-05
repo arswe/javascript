@@ -43,15 +43,22 @@
 // Arrow Functions:
 
 // ES5
-var x = function (x, y) {
-  return x * y;
-};
+// var x = function (x, y) {
+//   return x * y;
+// };
+
 // ES6
-const add = (a, b) => a + b;
-document.getElementById('demo').innerHTML = add(1, 2);
+
+// const add = (a, b) => a + b;
+// document.getElementById('demo').innerHTML = add(1, 2);
 // console.log(add(1, 2)); // 3
 
-if (x === 5) {
-  let x = 7;
-  console.log(x); // 7
+function test(x, y) {
+  x = x * 2;
+  return x * y;
 }
+
+let x = 5;
+let y = 6;
+
+console.log(test(x, y)); // 30
