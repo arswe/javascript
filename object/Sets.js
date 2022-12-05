@@ -19,7 +19,18 @@
 // // Sets are a new object type that allow you to store unique values of any type. A value in the Set may only occur once; it is unique in the Set's collection.
 //
 
-const letters = new Set();
+// const letters = new Set(['a', 'b', 'c', 'd', 'e']);
 
-console.log(letters);
-console.dir(letters);
+// console.log(letters.values());
+
+// for (const elem of letters) {
+//   console.log(elem);
+// }
+
+const person = {
+  name: 'Max',
+  age: 30,
+  //   hobbies: ['Sports', 'Cooking'],
+};
+
+console.log(Object.keys(person));
