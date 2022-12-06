@@ -10,3 +10,21 @@
 // All browsers return a NodeList object for the property childNodes.
 
 // Most browsers return a NodeList object for the method querySelectorAll().
+
+// The NodeList object is an array of nodes.
+
+// The nodes in a NodeList object are numbered, starting with 0.
+
+// The length property of a NodeList object returns the number of nodes in a NodeList object.
+
+//
+
+const NodeList = document.querySelectorAll('p');
+
+const HTMLCollection = document.getElementsByClassName('intro');
+
+console.dir(NodeList);
+console.dir(HTMLCollection);
+
+console.dir(NodeList[0]);
+console.dir(HTMLCollection['one']);
