@@ -1,7 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'rajdhani', sans-serif;
-
+/* #container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: darkcyan;
 }
+
+#animate {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: lightcoral;
+} */
